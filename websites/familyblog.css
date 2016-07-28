@@ -49,9 +49,11 @@ body {
 .navbar-inverse .navbar-nav>li>a {
 	color: #FFFFFF;
 	font-family: 'Quicksand', sans-serif;
+	margin-left: 5px;
 }
 #home-icon {
 	margin-top: -5.5px;
+	margin-left: 25px;
 }
 .para {
 	text-align: center;
