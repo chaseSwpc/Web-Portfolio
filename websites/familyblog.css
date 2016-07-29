@@ -11,9 +11,11 @@ body {
 	/*color: #71902a;*/ /*green*/
 	/*color: #51a33e;*/ /*sunny green*/
 	/*color: #2e9674; *//*turtle green*/
-	color: #ffe61d;
-	/*background: #ecf0f1;*/
-	background: none;
+	color: #ffe61d; /*This is the color of the divs for The Sun Bathing Turtle*/
+	background-color: #F8F8FF; /*This is the color for the jumbotron background*/
+	padding-bottom: 210px; /*This creates the height of the jumbotron*/
+	/*background: #ecf0f1;
+	/*background: none;*/ /*This toggles the jumbotron on and off*/
 	font-family: 'Quicksand', sans-serif;
 	/*width: 1140px;
 	height: 320px;*/
@@ -24,6 +26,7 @@ body {
 	float: right;
 	clear: right;
 	margin: -10px 0px 5px 155px;
+	padding-right: 10px;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 55px;
@@ -34,6 +37,7 @@ body {
 	clear: right;
 	margin: -256px 134px 0px 0px;
 	padding-top: 35px;
+	padding-right: 10px;
 	font-family:'Segoe UI Symbol';
 	color:#2e9674;
 	font-size:105px;
@@ -165,6 +169,9 @@ body {
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+	.jumbotron {
+		padding-bottom: 180px;
+	}
 	.row {
 		padding: 30px 0px 10px 0px;
 	}
@@ -194,8 +201,11 @@ body {
 
 @media (min-width: 555px) and (max-width: 767px) {
 
+	.jumbotron {
+		padding-bottom: 160px;
+	}
 	.row {
-		padding: 100px 0px 0px 0px;
+		padding: 30px 0px 0px 0px;
 	}
 	.title-1, .title-2, .title-3, .title-4 {
 		position: relative;
@@ -229,8 +239,11 @@ body {
 
 @media (min-width: 510px) and (max-width: 554px) {
 
+	.jumbotron {
+		padding-bottom: 130px;
+	}
 	.row {
-		padding: 70px 0px 0px 0px;
+		padding: 30px 0px 0px 0px;
 	}
 	.title-1, .title-2, .title-3, .title-4 {
 		position: relative;
@@ -267,8 +280,11 @@ body {
 
 @media (min-width: 300px) and (max-width: 509px) {
 
+	.jumbotron {
+		padding-bottom: 115px;
+	}
 	.row {
-		padding: 50px 0px 0px 0px;
+		padding: 30px 0px 0px 0px;
 	}
 	.title-1, .title-2, .title-3, .title-4 {
 		position: relative;
@@ -305,8 +321,11 @@ body {
 
 @media (max-width: 299px) {
 
+	.jumbotron {
+		padding-bottom: 115px;
+	}
 	.row {
-		padding: 50px 0px 0px 0px;
+		padding: 30px 0px 0px 0px;
 	}
 	.title-1, .title-2, .title-3, .title-4 {
 		position: relative;
