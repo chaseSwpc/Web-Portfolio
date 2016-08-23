@@ -121,7 +121,7 @@ hr.hrbottom {
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
-@media (min-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 
 	.row {
 		padding: 24px 0px 10px 0px;
@@ -191,9 +191,9 @@ hr.hrbottom {
     .col-md-5 {
       width: 41.66%;
     }
-    .col-md-6 {
+/*    .col-md-6 {
       width: 50%;
-    }
+    }*/
     .col-md-7 {
       width: 58.33%;
     }
@@ -212,7 +212,6 @@ hr.hrbottom {
     .col-md-12 {
       width: 100%;
     }
-
 }
 
 @media (min-width: 555px) and (max-width: 767px) {
