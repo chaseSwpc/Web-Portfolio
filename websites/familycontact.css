@@ -1,43 +1,7 @@
 body {
 	padding-top: 70px;
 	font-family: 'Quicksand', sans-serif;
-}
-.container .jumbotron {
-	padding-right: 0px;
-	/*background-color: #FFF8DC;*/
-}
-.jumbotron {
-	/*color: #2c3e50;*/ /*midnight*/
-	/*color: #71902a;*/ /*green*/
-	/*color: #51a33e;*/ /*sunny green*/
-	/*color: #2e9674; *//*turtle green*/
-	color: #ffe61d;
-	/*background: #ecf0f1;*/
-	background: none;
-	font-family: 'Quicksand', sans-serif;
-	/*width: 1140px;
-	height: 320px;*/
-	/*border: 2px solid black;*/
-}
-.title-1, .title-2, .title-3, .title-4 {
-	position: relative;
-	float: right;
-	clear: right;
-	margin: -10px 0px 5px 155px;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 55px;
-}
-.title-5 {
-	position: relative;
-	float: right;
-	clear: right;
-	margin: -256px 134px 0px 0px;
-	padding-top: 35px;
-	font-family:'Segoe UI Symbol';
-	color:#2e9674;
-	font-size:105px;
-	font-weight: bold;
+	text-align: center;
 }
 .navbar-inverse {
 	/*background: #2c3e50; /*midnight*/
@@ -55,13 +19,36 @@ body {
 }
 .para {
 	text-align: center;
+	margin:30px 0px 30px 0px;
 }
-.readmore {
-	text-align: center;
-	font-style: italic;
-	margin-bottom: 80px;
-	color: #F8F8FF;
+.contactHeader {
+	font-family: 'Quicksand', sans-serif;
+	padding-top: 15px;
 }
+hr.hrtop { 
+  margin: 35px 0px 0px 0px;
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+hr.hrbottom { 
+  margin-bottom: 30px;	
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+#top {
+	margin: 40px 0px 20px 0px;
+
+}
+
 
 /*footer details*/
 
@@ -134,89 +121,143 @@ body {
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
-
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 
 	.row {
-		padding: 24px 0px 0px 0px;
+		padding: 24px 0px 10px 0px;
 	}
-	.title-1, .title-2, .title-3, .title-4 {
-		position: relative;
-		float: right;
-		clear: right;
-		margin: -20px 0px 15px 150px;
-		text-transform: uppercase;
-		font-size: 55px;
-		font-weight: bold;
-	}
-	.title-5 {
-		position: relative;
-		float: right;
-		clear: right;
-		margin: -256px 134px 0px 0px;
-		padding-top: 25px;
-		font-family:'Segoe UI Symbol';
-		color:#2e9674;
-		font-size: 105px;
-		font-weight: bold;
-	}
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 33%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
 
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 
 	.row {
-		padding: 30px 0px 10px 0px;
+		padding: 24px 0px 10px 0px;
 	}
-	.title-1, .title-2, .title-3, .title-4 {
-		position: relative;
-		float: right;
-		clear: right;
-		/*margin: -20px 0px 25px 150px;
-		padding-bottom: -5px;*/
-		text-transform: uppercase;
-		font-size: 45px;
-		font-weight: bold;
-	}
-	.title-5 {
-		position: relative;
-		float: right;
-		clear: right;
-		margin: -256px 105px 0px 0px;
-		padding-top: 73px;
-		font-family:'Segoe UI Symbol';
-		color:#2e9674;
-		font-size: 90px;
-		font-weight: bold;
-	}
-
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+    }
+    .col-md-1 {
+      width: 8.33%;
+    }
+    .col-md-2 {
+      width: 16.66%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-4 {
+      width: 33%;
+    }
+    .col-md-5 {
+      width: 41.66%;
+    }
+/*    .col-md-6 {
+      width: 50%;
+    }*/
+    .col-md-7 {
+      width: 58.33%;
+    }
+    .col-md-8 {
+      width: 66.66%;
+    }
+    .col-md-9 {
+      width: 74.99%;
+    }
+    .col-md-10 {
+      width: 83.33%;
+    }
+    .col-md-11 {
+      width: 91.66%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
 }
 
 @media (min-width: 555px) and (max-width: 767px) {
 
 	.row {
-		padding: 100px 0px 0px 0px;
+		padding: 24px 0px 0px 0px;
 	}
-	.title-1, .title-2, .title-3, .title-4 {
-		position: relative;
-		float: right;
-		clear: right;
-		/*margin: -20px 0px 12px 150px;*/
-		text-transform: uppercase;
-		font-size: 40px;
-		font-weight: bold;
-	}
-	.title-5 {
-		position: relative;
-		float: right;
-		clear: right;
-		margin: -256px 95px 0px 0px;
-		padding-top: 90px;
-		font-family:'Segoe UI Symbol';
-		color:#2e9674;
-		font-size: 80px;
-		font-weight: bold;
-	}
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+      float: left;
+    }
+    .col-sm-1 {
+      width: 8.33%;
+    }
+    .col-sm-2 {
+      width: 16.66%;
+    }
+    .col-sm-3 {
+      width: 25%;
+    }
+    .col-sm-4 {
+      width: 33%;
+    }
+    .col-sm-5 {
+      width: 41.66%;
+    }
+    .col-sm-6 {
+      width: 50%;
+    }
+    .col-sm-7 {
+      width: 58.33%;
+    }
+    .col-sm-8 {
+      width: 66.66%;
+    }
+    .col-sm-9 {
+      width: 74.99%;
+    }
+    .col-sm-10 {
+      width: 83.33%;
+    }
+    .col-sm-11 {
+      width: 91.66%;
+    }
+    .col-sm-12 {
+      width: 100%;
+    }
 	.footer-distributed h3{
 		font-size: 40px;
 	}	
@@ -230,28 +271,47 @@ body {
 @media (min-width: 510px) and (max-width: 554px) {
 
 	.row {
-		padding: 70px 0px 0px 0px;
+		padding: 24px 0px 0px 0px;
 	}
-	.title-1, .title-2, .title-3, .title-4 {
-		position: relative;
-		float: right;
-		clear: right;
-		/*margin: -20px 0px 12px 150px;*/
-		text-transform: uppercase;
-		font-size: 34px;
-		font-weight: bold;
-	}
-	.title-5 {
-		position: relative;
-		float: right;
-		clear: right;
-		margin: -256px 81px 0px 0px;
-		padding-top: 120px;
-		font-family:'Segoe UI Symbol';
-		color:#2e9674;
-		font-size: 65px;
-		font-weight: bold;
-	}
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+      float: left;
+    }
+    .col-sm-1 {
+      width: 8.33%;
+    }
+    .col-sm-2 {
+      width: 16.66%;
+    }
+    .col-sm-3 {
+      width: 25%;
+    }
+    .col-sm-4 {
+      width: 33%;
+    }
+    .col-sm-5 {
+      width: 41.66%;
+    }
+    .col-sm-6 {
+      width: 50%;
+    }
+    .col-sm-7 {
+      width: 58.33%;
+    }
+    .col-sm-8 {
+      width: 66.66%;
+    }
+    .col-sm-9 {
+      width: 74.99%;
+    }
+    .col-sm-10 {
+      width: 83.33%;
+    }
+    .col-sm-11 {
+      width: 91.66%;
+    }
+    .col-sm-12 {
+      width: 100%;
+    }
 	.footer-distributed h3{
 		font-size: 34px;
 	}	
@@ -268,28 +328,47 @@ body {
 @media (min-width: 300px) and (max-width: 509px) {
 
 	.row {
-		padding: 50px 0px 0px 0px;
+		padding: 24px 0px 0px 0px;
 	}
-	.title-1, .title-2, .title-3, .title-4 {
-		position: relative;
-		float: right;
-		clear: right;
-		/*margin: -20px 0px 12px 150px;*/
-		text-transform: uppercase;
-		font-size: 30px;
-		font-weight: bold;
-	}
-	.title-5 {
-		position: relative;
-		float: right;
-		clear: right;
-		margin: -256px 75px 0px 0px;
-		padding-top: 138px;
-		font-family:'Segoe UI Symbol';
-		color:#2e9674;
-		font-size: 55px;
-		font-weight: bold;
-	}
+	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+      float: left;
+    }
+    .col-xs-1 {
+      width: 8.33%;
+    }
+    .col-xs-2 {
+      width: 16.66%;
+    }
+    .col-xs-3 {
+      width: 25%;
+    }
+    .col-xs-4 {
+      width: 33%;
+    }
+    .col-xs-5 {
+      width: 41.66%;
+    }
+    .col-xs-6 {
+      width: 50%;
+    }
+    .col-xs-7 {
+      width: 58.33%;
+    }
+    .col-xs-8 {
+      width: 66.66%;
+    }
+    .col-xs-9 {
+      width: 74.99%;
+    }
+    .col-xs-10 {
+      width: 83.33%;
+    }
+    .col-xs-11 {
+      width: 91.66%;
+    }
+    .col-xs-12 {
+      width: 100%;
+    }
 	.footer-distributed h3{
 		font-size: 30px;
 	}	
@@ -306,28 +385,47 @@ body {
 @media (max-width: 299px) {
 
 	.row {
-		padding: 50px 0px 0px 0px;
+		padding: 24px 0px 0px 0px;
 	}
-	.title-1, .title-2, .title-3, .title-4 {
-		position: relative;
-		float: right;
-		clear: right;
-		/*margin: -20px 0px 12px 150px;*/
-		text-transform: uppercase;
-		font-size: 30px;
-		font-weight: bold;
-	}
-	.title-5 {
-		position: relative;
-		float: right;
-		clear: right;
-		margin: -256px 75px 0px 0px;
-		padding-top: 138px;
-		font-family:'Segoe UI Symbol';
-		color:#2e9674;
-		font-size: 55px;
-		font-weight: bold;
-	}
+	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+      float: left;
+    }
+    .col-xs-1 {
+      width: 8.33%;
+    }
+    .col-xs-2 {
+      width: 16.66%;
+    }
+    .col-xs-3 {
+      width: 25%;
+    }
+    .col-xs-4 {
+      width: 33%;
+    }
+    .col-xs-5 {
+      width: 41.66%;
+    }
+    .col-xs-6 {
+      width: 50%;
+    }
+    .col-xs-7 {
+      width: 58.33%;
+    }
+    .col-xs-8 {
+      width: 66.66%;
+    }
+    .col-xs-9 {
+      width: 74.99%;
+    }
+    .col-xs-10 {
+      width: 83.33%;
+    }
+    .col-xs-11 {
+      width: 91.66%;
+    }
+    .col-xs-12 {
+      width: 100%;
+    }
 	.footer-distributed h3{
 		font-size: 29px;
 	}	

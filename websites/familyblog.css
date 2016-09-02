@@ -4,7 +4,7 @@ body {
 }
 .container .jumbotron {
 	padding-right: 0px;
-	/*background-color: #FFF8DC;*/
+	/*background-color: #FFF8DC;
 }
 .jumbotron {
 	/*color: #2c3e50;*/ /*midnight*/
@@ -18,7 +18,7 @@ body {
 	/*background: none;*/ /*This toggles the jumbotron on and off*/
 	font-family: 'Quicksand', sans-serif;
 	/*width: 1140px;
-	height: 320px;*/
+	height: 320px;
 	/*border: 2px solid black;*/
 }
 .title-1, .title-2, .title-3, .title-4 {
