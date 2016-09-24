@@ -1,6 +1,6 @@
 body {
-	/*background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?dpr=2&fit=crop&fm=jpg&h=775&q=50&w=1450);*/
-	background: url('file:///C:/Users/icanc/Documents/Resumes/Chase Professional Headshot IMG_2351.jpg');
+	/*background: url('file:///C:/Users/icanc/Documents/Resumes/Chase Professional Headshot IMG_2351.jpg');*/
+	background: url(https://scontent-atl3-1.xx.fbcdn.net/t31.0-8/p960x960/14468562_1289705704375304_3629800009694617023_o.jpg);
 	background-size: cover;
 	background-position: right 180px top -100px;
 	font-family: 'Lato', sans-serif;
@@ -23,9 +23,9 @@ html {
 .header1 {
 	position: relative;
 	text-transform: uppercase;
-    /*font-family: 'gt_walsheim_medium';*/
+    font-family: 'gt_walsheim_medium';
     /*font-family: 'Poly', serif;*/
-    font-family: 'Quicksand', sans-serif;
+    /*font-family: 'Quicksand', sans-serif;*/
     font-size: 46px;
     line-height: 46px;
     letter-spacing: 0.09em;
@@ -33,6 +33,7 @@ html {
     word-wrap: break-word;
 	width: 500px;
 	text-align: center;
+	color: gold;
 }
 .header2 {
 	position: relative;
@@ -73,8 +74,9 @@ hr {
     line-height: 22px;
 /*    font-family: 'Poly', serif;*/
     font-family: 'SanchezExtraLight';
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
     display: block;
+    color: blue;
 }
 #github-button {
 	margin-left: 225px;
