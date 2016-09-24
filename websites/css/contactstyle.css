@@ -33,7 +33,7 @@ html {
     word-wrap: break-word;
 	width: 500px;
 	text-align: center;
-	color: gold;
+	/*color: gold;*/
 }
 .header2 {
 	position: relative;
@@ -76,7 +76,7 @@ hr {
     font-family: 'SanchezExtraLight';
 /*    text-transform: uppercase;*/
     display: block;
-    color: blue;
+    /*color: blue;*/
 }
 #github-button {
 	margin-left: 225px;
