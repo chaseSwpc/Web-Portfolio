@@ -23,12 +23,7 @@ html {
 .header1 {
 	position: relative;
 	text-transform: uppercase;
-	/*font-family: 'Quattrocento', serif;*/
 	font-family: 'Abril Fatface', cursive;
-	/*font-family: 'Josefin Sans', sans-serif;*/
-    /*font-family: 'gt_walsheim_medium';*/
-    /*font-family: 'Arimo', sans-serif;*/
-    /*font-family: 'Poly', serif;*/
     font-size: 46px;
     line-height: 46px;
     letter-spacing: 0.09em;
@@ -36,11 +31,9 @@ html {
     word-wrap: break-word;
 	width: 500px;
 	text-align: center;
-	/*color: #D3F64B;*/
-	/*color: #4BD3F6;*/
-	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/ /*this puts a border around the text*/
-/*	-webkit-text-stroke-width: 2px;		
-    -webkit-text-stroke-color: #000;*/
+	color: #00F2FF;
+/*	color: #AF5651;*/
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /*this puts a border around the text*/
 }
 .header2 {
 	position: relative;
@@ -85,7 +78,6 @@ hr {
 /*    text-transform: uppercase;*/
     display: block;
     color: #D3F64B;
-    /*color: #4BD3F6;*/
 }
 #github-button {
 	margin-left: 225px;
