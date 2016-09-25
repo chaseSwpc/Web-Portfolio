@@ -24,8 +24,8 @@ html {
 	position: relative;
 	text-transform: uppercase;
 	font-family: 'Abril Fatface', cursive;
-    font-size: 46px;
-    line-height: 46px;
+    font-size: 40px;
+    line-height: 40px;
     letter-spacing: 0.09em;
     padding: 7px 0px 0px 0px;
     word-wrap: break-word;
@@ -43,7 +43,7 @@ html {
     letter-spacing: 0.6em;
     font-weight: normal;
     padding: 0 0 10px 0;
-    margin-top: -25px;
+    margin-top: -22px;
     word-wrap: break-word;
 	width: 500px;
 	text-align: center;
@@ -61,10 +61,10 @@ hr {
 	word-wrap: break-word;
 	width: 500px;
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 	/*font-family: 'Lato', sans-serif;*/
 	font-family: 'Quicksand', sans-serif;
-	line-height: 24px;
+	line-height: 22px;
 }
 .contact {
 	word-wrap: break-word;
@@ -86,7 +86,7 @@ hr {
 	text-align: center;
 	cursor: pointer;
 	border-radius: 2px;
-	font-size: 50px;
+	font-size: 48px;
 	line-height: 35px;
 	color: white;
 }
