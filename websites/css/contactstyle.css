@@ -23,9 +23,12 @@ html {
 .header1 {
 	position: relative;
 	text-transform: uppercase;
-    font-family: 'gt_walsheim_medium';
+	/*font-family: 'Quattrocento', serif;*/
+	font-family: 'Abril Fatface', cursive;
+	/*font-family: 'Josefin Sans', sans-serif;*/
+    /*font-family: 'gt_walsheim_medium';*/
+    /*font-family: 'Arimo', sans-serif;*/
     /*font-family: 'Poly', serif;*/
-    /*font-family: 'Quicksand', sans-serif;*/
     font-size: 46px;
     line-height: 46px;
     letter-spacing: 0.09em;
@@ -33,7 +36,11 @@ html {
     word-wrap: break-word;
 	width: 500px;
 	text-align: center;
-	/*color: gold;*/
+	/*color: #D3F64B;*/
+	/*color: #4BD3F6;*/
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/ /*this puts a border around the text*/
+/*	-webkit-text-stroke-width: 2px;		
+    -webkit-text-stroke-color: #000;*/
 }
 .header2 {
 	position: relative;
@@ -73,10 +80,12 @@ hr {
 	font-size: 20px;
     line-height: 22px;
 /*    font-family: 'Poly', serif;*/
-    font-family: 'SanchezExtraLight';
+	/*font-family: 'EB Garamond', serif;*/
+	font-family: 'Josefin Sans', sans-serif;
 /*    text-transform: uppercase;*/
     display: block;
-    /*color: blue;*/
+    color: #D3F64B;
+    /*color: #4BD3F6;*/
 }
 #github-button {
 	margin-left: 225px;
