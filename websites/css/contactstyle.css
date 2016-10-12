@@ -23,7 +23,7 @@ html {
 .header1 {
 	position: relative;
 	text-transform: uppercase;
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Taviraj', serif;
     font-size: 40px;
     line-height: 40px;
     letter-spacing: 0.09em;
@@ -78,6 +78,16 @@ hr {
 /*    text-transform: uppercase;*/
     display: block;
     color: #D3F64B;
+}
+.contact a {	
+	font-size: 20px;
+    line-height: 22px;
+/*    font-family: 'Poly', serif;*/
+	/*font-family: 'EB Garamond', serif;*/
+	font-family: 'Josefin Sans', sans-serif;
+/*    text-transform: uppercase;*/
+    color: #D3F64B;
+    text-decoration:none;
 }
 #github-button {
 	margin-left: 225px;
