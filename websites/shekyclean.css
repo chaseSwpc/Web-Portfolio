@@ -1,0 +1,82 @@
+body {
+	/*background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?dpr=2&fit=crop&fm=jpg&h=775&q=50&w=1450);*/
+	/*brush & cleaner*/
+	/*background: url(http://images.freeimages.com/images/previews/54e/cleaning-time-1258462.jpg);  */
+	/*sink*/
+	/*background: url(http://images.freeimages.com/images/previews/d10/sink-1550843.jpg);  */
+	/*brush*/
+	/*background: url(http://images.freeimages.com/images/previews/5bb/brush-1422878.jpg);  */
+	/*background: url(https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/J4C1WJDMMU.jpg);*/
+	
+	/*matter most photos*/
+	/*toes in the sand*/
+	/*background: url(https://images.unsplash.com/photo-1476571000482-3f8d96222bb9?dpr=1.5&amp;auto=compress,format&amp;crop=entropy&amp;fit=crop&amp;w=1199&amp;h=799&amp;q=80&amp;cs=tinysrgb&quot;);*/
+	/*horse*/
+	/*background: url(https://images.unsplash.com/photo-1477080516848-367ac41e6a9a?dpr=1.5&amp;auto=compress,format&amp;crop=entropy&amp;fit=crop&amp;w=1199&amp;h=1799&amp;q=80&amp;cs=tinysrgb&quot;);*/
+    /*family*/
+    background: url(https://images.unsplash.com/photo-1437954820769-76094033b90f?dpr=1.5&amp;auto=compress,format&amp;crop=entropy&amp;fit=crop&amp;w=1199&amp;h=800&amp;q=80&amp;cs=tinysrgb&quot;);
+	background-size: cover;
+	background-position: center;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+html {
+	/*height: 100%;*/
+	/*for toes*/
+	height: 122%;
+}
+
+.navbar-inverse {
+	/*background: #2c3e50; /*midnight*/
+	/*background: #71902a;*/ /*green*/
+	/*background: #51a33e;*/ /*sunny green*/
+	background: black; /*turtle green*/
+	opacity: 1px;
+}
+
+.navbar-inverse .navbar-brand {
+	/*color: #FFFFFF;*/
+	/*color: #C0C0C0;*/
+	color: #808080;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #FFFFFF;
+	/*font-family: 'Quicksand', sans-serif;*/
+}
+
+#content {
+	text-align: center;
+	padding-top: 21%;
+	color: #000000;
+/*	text-shadow: 0px 4px 3px rgba(0,0,0,1),
+				 0px 8px 13px rgba(0,0,0,1),
+				 0px 18px 23px rgba(0,0,0,1),*/
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+	/*color: #444;*/
+	color: #2F4F4F;
+    text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;	
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #2F4F4F;
+	/**border-top: 1px solid black;*/
+	border-bottom: 1px solid rgba(0,0,0,0.2); /*gives the effect of a shadow*/
+}
+
+.btn-default {
+	color: #000000;
+}
