@@ -222,7 +222,7 @@ body {
 		/*background: url('file:///C:/Users/icanc/Documents/Resumes/Chase Professional Headshot IMG_2351.jpg');*/
         background: url(https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/15975028_1414625455216661_7533210601123476847_o.jpg?oh=81489ae7bee4914a672f79a679566fd0&oe=591BE517);
 		background-size: cover;
-		background-position: right 500px top 0px ;
+		background-position: right 750px top 10px ;
 		font-family: 'Lato', sans-serif;
 		color: white;
 	}	
@@ -243,8 +243,8 @@ body {
 		position: relative;
 		text-transform: uppercase;
 		font-family: 'Taviraj', serif;
-	    font-size: 28px;
-	    line-height: 28px;
+	    font-size: 26px;
+	    line-height: 26px;
 	    letter-spacing: 0.09em;
 	    padding: 7px 0px 0px 0px;
 	    word-wrap: break-word;
@@ -262,7 +262,7 @@ body {
 	    letter-spacing: 0.6em;
 	    font-weight: normal;
 	    padding: 0 0 2px 0;
-	    margin-top: -22px;
+	    margin-top: -25px;
 	    word-wrap: break-word;
 		width: 250px;
 		text-align: center;
