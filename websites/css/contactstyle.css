@@ -222,7 +222,7 @@ body {
 		/*background: url('file:///C:/Users/icanc/Documents/Resumes/Chase Professional Headshot IMG_2351.jpg');*/
         background: url(https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/15975028_1414625455216661_7533210601123476847_o.jpg?oh=81489ae7bee4914a672f79a679566fd0&oe=591BE517);
 		background-size: cover;
-		background-position: right 200px top -10px ;
+		background-position: right 500px top 0px ;
 		font-family: 'Lato', sans-serif;
 		color: white;
 	}	
@@ -231,7 +231,7 @@ body {
 	}
 	.container {
 		width: 250px;
-		margin-left: 30px;
+		margin-left: 50px;
 		margin-top: 10px;
 		background: #000;
 	  	background: -webkit-linear-gradient(bottom,rgba(0,0,0,.7), rgba(0,0,0,.1));
