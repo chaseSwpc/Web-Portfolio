@@ -114,7 +114,7 @@ hr {
 		/*background: url('file:///C:/Users/icanc/Documents/Resumes/Chase Professional Headshot IMG_2351.jpg');*/
 	    background: url(https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/15975028_1414625455216661_7533210601123476847_o.jpg?oh=81489ae7bee4914a672f79a679566fd0&oe=591BE517);
 		background-size: cover;
-		background-position: right -175px top -10px;
+		background-position: right -175px top 0px;
 		font-family: 'Lato', sans-serif;
 		color: white;
 	}	
@@ -122,7 +122,7 @@ hr {
 		height: 100%;
 	}
 	.container {
-		width: 350px;
+		width: 400px;
 		margin-left: 75px;
 		margin-top: 75px;
 		background: #000;
@@ -131,5 +131,86 @@ hr {
 	  	padding: 0px 10px 10px 10px;
 	    border-radius: 20px;
 	}    
+	.header1 {
+		position: relative;
+		text-transform: uppercase;
+		font-family: 'Taviraj', serif;
+	    font-size: 35px;
+	    line-height: 35px;
+	    letter-spacing: 0.09em;
+	    padding: 7px 0px 0px 0px;
+	    word-wrap: break-word;
+		width: 400px;
+		text-align: center;
+		color: #00F2FF;
+	/*	color: #AF5651;*/
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /*this puts a border around the text*/
+	}
+	.header2 {
+		position: relative;
+		text-transform: uppercase;
+	    font-family: 'SanchezExtraLight';
+	    font-size: 15px;
+	    letter-spacing: 0.6em;
+	    font-weight: normal;
+	    padding: 0 0 7px 0;
+	    margin-top: -22px;
+	    word-wrap: break-word;
+		width: 400px;
+		text-align: center;
+	}
+	hr {
+		/*width: 400px;*/
+		width: 15px;
+		margin-left: 207px;
+		text-align: center;
+		/*margin-left: 48px;*/
+		border-top: 2px solid #f8f8f8;
+		border-bottom: 1px solid rgba(0,0,0,0.2); /*gives the effect of a shadow*/
+	}
+	.para {
+		word-wrap: break-word;
+		width: 400px;
+		text-align: center;
+		font-size: 16px;
+		/*font-family: 'Lato', sans-serif;*/
+		font-family: 'Quicksand', sans-serif;
+		line-height: 20px;
+	}
+	.contact {
+		word-wrap: break-word;
+		width: 400px;
+		text-align: center;
+		font-size: 18px;
+	    line-height: 18px;
+	/*    font-family: 'Poly', serif;*/
+		/*font-family: 'EB Garamond', serif;*/
+		font-family: 'Josefin Sans', sans-serif;
+	/*    text-transform: uppercase;*/
+	    display: block;
+	    color: #D3F64B;
+	}
+	.contact a {	
+		font-size: 18px;
+	    line-height: 18px;
+	/*    font-family: 'Poly', serif;*/
+		/*font-family: 'EB Garamond', serif;*/
+		font-family: 'Josefin Sans', sans-serif;
+	/*    text-transform: uppercase;*/
+	    color: #D3F64B;
+	    text-decoration:none;
+	}
+	#github-button {
+		margin-left: 197px;
+		word-wrap: break-word;
+		width: 400px;
+		text-align: center;
+		cursor: pointer;
+		border-radius: 2px;
+		font-size: 48px;
+		line-height: 35px;
+		color: white;
+	}
+
 
 }
