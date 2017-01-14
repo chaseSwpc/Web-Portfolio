@@ -124,7 +124,7 @@ hr {
 	.container {
 		width: 400px;
 		margin-left: 75px;
-		margin-top: 75px;
+		margin-top: 65px;
 		background: #000;
 	  	background: -webkit-linear-gradient(bottom,rgba(0,0,0,.7), rgba(0,0,0,.1));
 	  	background: -moz-linear-gradient(bottom,rgba(0,0,0,.7), rgba(0,0,0,.1));
@@ -162,7 +162,7 @@ hr {
 	hr {
 		/*width: 400px;*/
 		width: 15px;
-		margin-left: 207px;
+		margin-left: 200px;
 		text-align: center;
 		/*margin-left: 48px;*/
 		border-top: 2px solid #f8f8f8;
@@ -201,7 +201,7 @@ hr {
 	    text-decoration:none;
 	}
 	#github-button {
-		margin-left: 197px;
+		margin-left: 195px;
 		word-wrap: break-word;
 		width: 400px;
 		text-align: center;
