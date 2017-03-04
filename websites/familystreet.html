@@ -52,14 +52,28 @@
 <div class="container">
     <div class="row">
       <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+        <h1 class="streetHeader">JOIN STREET TEAM</h1>
         <div class="thumbnail">
           <!-- <img src="http://i.imgur.com/qK42fUu.jpg"> -->
           <img src="http://files.stablerack.com/WebFiles/80651/_streetTeam.jpg">
         </div>
-        <h1 class="streetHeader">JOIN STREET TEAM</h1>
-        <hr class="hrtop">
-        <div class="para"><p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p></div> <!-- eventually need to put in text boxes for input -->
-        <hr class="hrbottom">
+        <!-- <hr class="hrtop"> -->
+        <form action="/sign-in-url" method="post">
+        <label for="name"></label>
+        <input id="name" placeholder="Full name" required>
+        <label for="email"></label>
+        <input id="email" placeholder="Email" required>
+        <label for="street"></label>
+        <input id="street" placeholder="Address" required>
+        <label for="city"></label>
+        <input id="city" placeholder="City" required>
+        <label for="state"></label>
+        <input id="state" placeholder="State" required>
+        <label for="zip"></label>
+        <input id="zip" placeholder="Zip Code" required>
+        <button>Submit</button>
+        </form>
+        <!-- <hr class="hrbottom"> -->
         <p><a href="#top">Back to Top</a></p>
       </div> <!-- end responsive col_lg -->
     </div> <!-- end .row -->

@@ -24,12 +24,12 @@ body {
 .streetHeader {
 	/*font-family: 'Quicksand', sans-serif;*/
   font-family: 'Fredericka the Great', cursive;
-	padding-top: 10px;
+	padding-bottom: 15px;
 }
 .thumbnail {
   margin: 0px 25px 0px 25px;
 }
-hr.hrtop { 
+/*hr.hrtop { 
   margin: 35px 0px 0px 0px;
   border: 0; 
   height: 1px; 
@@ -47,7 +47,7 @@ hr.hrbottom {
   background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
-}
+}*/
 #top {
 	margin: 40px 0px 20px 0px;
 
