@@ -27,7 +27,13 @@ body {
 	padding-bottom: 15px;
 }
 .thumbnail {
-  margin: 0px 25px 0px 25px;
+  margin: 0px 25px 20px 25px;
+}
+.form-horizontal {
+  text-align: center;
+}
+.btn-primary {
+  margin-top: 5px;
 }
 /*hr.hrtop { 
   margin: 35px 0px 0px 0px;
