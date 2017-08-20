@@ -14,7 +14,7 @@ body {
 	/*horse*/
 	/*background: url(https://images.unsplash.com/photo-1477080516848-367ac41e6a9a?dpr=1.5&amp;auto=compress,format&amp;crop=entropy&amp;fit=crop&amp;w=1199&amp;h=1799&amp;q=80&amp;cs=tinysrgb&quot;);*/
     /*family*/
-    background: url('https://images.unsplash.com/photo-1437954820769-76094033b90f?dpr=1.5&amp;auto=compress,format&amp;crop=entropy&amp;fit=crop&amp;w=1199&amp;h=800&amp;q=80&amp;cs=tinysrgb&quot');
+    background-image: url("https://images.unsplash.com/photo-1437954820769-76094033b90f?dpr=1.5&amp;auto=compress,format&amp;crop=entropy&amp;fit=crop&amp;w=1199&amp;h=800&amp;q=80&amp;cs=tinysrgb&quot");
 	background-size: cover;
 	background-position: center;
 	font-family: 'Lato', sans-serif;
