@@ -67,6 +67,12 @@ body {
 	color: #F8F8FF;
 }
 
+/*sizing the images*/
+.thumbnail a img {
+	height: 232px;
+	width: 350px;
+}
+
 /*footer details*/
 
 .footer-distributed {

@@ -51,6 +51,11 @@ hr.hrbottom {
 
 }
 
+/*sizing the images*/
+/*.thumbnail img {
+  height: 409px;
+  width: 545px;
+}*/
 
 /*footer details*/
 
