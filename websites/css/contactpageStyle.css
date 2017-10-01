@@ -1,21 +1,22 @@
 
-
 body {
 	/*background: url('file:///C:/Users/icanc/Documents/Resumes/Chase Professional Headshot IMG_2351.jpg');*/
-	background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/15975028_1414625455216661_7533210601123476847_o.jpg?oh=951b947a3f4c8ff20ed7f4f3dcf68d51&oe=5A7FDA17);
-	/*background: url(https://mail.google.com/mail/u/0/?ui=2&ik=2198b9b8f9&view=att&th=15cae5666beef099&attid=0.1&disp=safe&realattid=f_j3z4kyrr0&zw);*/
+	/*background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/15975028_1414625455216661_7533210601123476847_o.jpg?oh=951b947a3f4c8ff20ed7f4f3dcf68d51&oe=5A7FDA17);*/
+	background: url(https://mail.google.com/mail/u/0/?ui=2&ik=2198b9b8f9&view=att&th=15cae5666beef099&attid=0.1&disp=safe&realattid=f_j3z4kyrr0&zw);
 	background-size: cover;
-	background-position: right -180px top -100px;
+	background-position: right 0px top -100px;
+	background-attachment: fixed;
 	font-family: 'Lato', sans-serif;
 	color: white;
 }	
 html {
+	width: 100%;
 	height: 100%;
 }
 .container {
-	width: 500px;
-	margin-left: 100px;
-	margin-top: 35px;
+	width: 300px;
+	margin-left: 925px;
+	/*margin-top: 10px;*/
 	background: #000;
   	background: -webkit-linear-gradient(bottom,rgba(0,0,0,.7), rgba(0,0,0,.1));
   	background: -moz-linear-gradient(bottom,rgba(0,0,0,.7), rgba(0,0,0,.1));
@@ -32,7 +33,7 @@ html {
     letter-spacing: 0.09em;
     padding: 7px 0px 0px 0px;
     word-wrap: break-word;
-	width: 500px;
+	width: 300px;
 	text-align: center;
 	color: #00F2FF;
 /*	color: #AF5651;*/
@@ -48,13 +49,13 @@ html {
     padding: 0 0 10px 0;
     margin-top: -22px;
     word-wrap: break-word;
-	width: 500px;
+	width: 300px;
 	text-align: center;
 }
 hr {
 	/*width: 400px;*/
 	width: 15px;
-	margin-left: 235px;
+	margin-left: 142px;
 	text-align: center;
 	/*margin-left: 48px;*/
 	border-top: 2px solid #f8f8f8;
@@ -62,7 +63,7 @@ hr {
 }
 .para {
 	word-wrap: break-word;
-	width: 500px;
+	width: 300px;
 	text-align: center;
 	font-size: 16px;
 	/*font-family: 'Lato', sans-serif;*/
@@ -71,7 +72,7 @@ hr {
 }
 .contact {
 	word-wrap: break-word;
-	width: 500px;
+	width: 300px;
 	text-align: center;
 	font-size: 20px;
     line-height: 22px;
@@ -93,9 +94,9 @@ hr {
     text-decoration:none;
 }
 #github-button {
-	margin-left: 225px;
+	margin-left: 130px;
 	word-wrap: break-word;
-	width: 500px;
+	width: 300px;
 	text-align: center;
 	cursor: pointer;
 	border-radius: 2px;
@@ -110,7 +111,8 @@ hr {
 
 	body {
 		/*background: url('file:///C:/Users/icanc/Documents/Resumes/Chase Professional Headshot IMG_2351.jpg');*/
-	    background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/15975028_1414625455216661_7533210601123476847_o.jpg?oh=951b947a3f4c8ff20ed7f4f3dcf68d51&oe=5A7FDA17);
+	    /*background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/15975028_1414625455216661_7533210601123476847_o.jpg?oh=951b947a3f4c8ff20ed7f4f3dcf68d51&oe=5A7FDA17);*/
+		background: url(https://mail.google.com/mail/u/0/?ui=2&ik=2198b9b8f9&view=att&th=15cae5666beef099&attid=0.1&disp=safe&realattid=f_j3z4kyrr0&zw);
 		background-size: cover;
 		background-position: right -175px top 0px;
 		font-family: 'Lato', sans-serif;
@@ -218,7 +220,8 @@ hr {
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
 body {
 		/*background: url('file:///C:/Users/icanc/Documents/Resumes/Chase Professional Headshot IMG_2351.jpg');*/
-		background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/15975028_1414625455216661_7533210601123476847_o.jpg?oh=951b947a3f4c8ff20ed7f4f3dcf68d51&oe=5A7FDA17);
+		/*background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/15975028_1414625455216661_7533210601123476847_o.jpg?oh=951b947a3f4c8ff20ed7f4f3dcf68d51&oe=5A7FDA17);*/
+		background: url(https://mail.google.com/mail/u/0/?ui=2&ik=2198b9b8f9&view=att&th=15cae5666beef099&attid=0.1&disp=safe&realattid=f_j3z4kyrr0&zw);
 		background-size: cover;
 		background-position: right 650px top 0px ;
 		font-family: 'Lato', sans-serif;

@@ -1,0 +1,69 @@
+body {
+	/*background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?dpr=2&fit=crop&fm=jpg&h=775&q=50&w=1450);*/
+	/*background: url('file:///C:/Users/icanc/Documents/Resumes/Chase Professional Headshot IMG_2351.jpg');*/
+	background: url('https://www.dropbox.com/s/z594niq2f8t5kgr/BF4A7017.jpg?dl=0');
+	background-size: cover;
+	background-position: right 180px top -100px;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}	
+html {
+	height: 100%;
+}
+.container {
+	margin-left: 100px;
+}
+
+.header1 {
+	position: relative;
+	text-transform: uppercase;
+    font-family: 'gt_walsheim_medium';
+    font-size: 46px;
+    line-height: 46px;
+    letter-spacing: 0.09em;
+    padding: 10px 0px;
+    word-wrap: break-word;
+	width: 500px;
+	text-align: center;
+}
+.header2 {
+	position: relative;
+	text-transform: uppercase;
+    font-family: 'SanchezExtraLight';
+    font-size: 15px;
+    letter-spacing: 0.6em;
+    font-weight: normal;
+    padding: 0 0 10px 0;
+    margin-top: -30px;
+    word-wrap: break-word;
+	width: 500px;
+	text-align: center;
+}
+.para {
+	word-wrap: break-word;
+	width: 500px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+}
+.contact {
+	word-wrap: break-word;
+	width: 500px;
+	text-align: center;
+	font-size: 24px;
+    line-height: 26px;
+    font-family: 'gt_walsheim_medium', arial;
+    text-transform: uppercase;
+    display: block;
+}
+#github-button {
+	margin-left: 225px;
+	word-wrap: break-word;
+	width: 500px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 2px;
+	font-size: 50px;
+	line-height: 35px;
+	color: white;
+}
