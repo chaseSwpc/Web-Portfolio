@@ -1,9 +1,11 @@
+
+
 body {
-	/*background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?dpr=2&fit=crop&fm=jpg&h=775&q=50&w=1450);*/
 	/*background: url('file:///C:/Users/icanc/Documents/Resumes/Chase Professional Headshot IMG_2351.jpg');*/
-	background: url('https://www.dropbox.com/s/z594niq2f8t5kgr/BF4A7017.jpg?dl=0');
+	background: url(https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/15975028_1414625455216661_7533210601123476847_o.jpg?_nc_cat=102&_nc_ht=scontent-atl3-1.xx&oh=02650d6cb0b02f60ea759050e90dd01f&oe=5D96DE17);
+	/*background: url(https://mail.google.com/mail/u/0/?ui=2&ik=2198b9b8f9&view=att&th=15cae5666beef099&attid=0.1&disp=safe&realattid=f_j3z4kyrr0&zw);*/
 	background-size: cover;
-	background-position: right 180px top -100px;
+	background-position: right -180px top -100px;
 	font-family: 'Lato', sans-serif;
 	color: white;
 }	
@@ -11,20 +13,30 @@ html {
 	height: 100%;
 }
 .container {
+	width: 500px;
 	margin-left: 100px;
+	margin-top: 35px;
+	background: #000;
+  	background: -webkit-linear-gradient(bottom,rgba(0,0,0,.7), rgba(0,0,0,.1));
+  	background: -moz-linear-gradient(bottom,rgba(0,0,0,.7), rgba(0,0,0,.1));
+  	padding: 0px 10px 10px 10px;
+    border-radius: 20px;
 }
 
 .header1 {
 	position: relative;
 	text-transform: uppercase;
-    font-family: 'gt_walsheim_medium';
-    font-size: 46px;
-    line-height: 46px;
+	font-family: 'Taviraj', serif;
+    font-size: 40px;
+    line-height: 40px;
     letter-spacing: 0.09em;
-    padding: 10px 0px;
+    padding: 7px 0px 0px 0px;
     word-wrap: break-word;
 	width: 500px;
 	text-align: center;
+	color: #00F2FF;
+/*	color: #AF5651;*/
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /*this puts a border around the text*/
 }
 .header2 {
 	position: relative;
@@ -34,27 +46,51 @@ html {
     letter-spacing: 0.6em;
     font-weight: normal;
     padding: 0 0 10px 0;
-    margin-top: -30px;
+    margin-top: -22px;
     word-wrap: break-word;
 	width: 500px;
 	text-align: center;
+}
+hr {
+	/*width: 400px;*/
+	width: 15px;
+	margin-left: 235px;
+	text-align: center;
+	/*margin-left: 48px;*/
+	border-top: 2px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2); /*gives the effect of a shadow*/
 }
 .para {
 	word-wrap: break-word;
 	width: 500px;
 	text-align: center;
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 16px;
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Quicksand', sans-serif;
+	line-height: 22px;
 }
 .contact {
 	word-wrap: break-word;
 	width: 500px;
 	text-align: center;
-	font-size: 24px;
-    line-height: 26px;
-    font-family: 'gt_walsheim_medium', arial;
-    text-transform: uppercase;
+	font-size: 20px;
+    line-height: 22px;
+/*    font-family: 'Poly', serif;*/
+	/*font-family: 'EB Garamond', serif;*/
+	font-family: 'Josefin Sans', sans-serif;
+/*    text-transform: uppercase;*/
     display: block;
+    color: #D3F64B;
+}
+.contact a {	
+	font-size: 20px;
+    line-height: 22px;
+/*    font-family: 'Poly', serif;*/
+	/*font-family: 'EB Garamond', serif;*/
+	font-family: 'Josefin Sans', sans-serif;
+/*    text-transform: uppercase;*/
+    color: #D3F64B;
+    text-decoration:none;
 }
 #github-button {
 	margin-left: 225px;
@@ -63,7 +99,223 @@ html {
 	text-align: center;
 	cursor: pointer;
 	border-radius: 2px;
-	font-size: 50px;
+	font-size: 48px;
 	line-height: 35px;
 	color: white;
+}
+
+
+/*iPad mini in landscape*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+	body {
+		/*background: url('file:///C:/Users/icanc/Documents/Resumes/Chase Professional Headshot IMG_2351.jpg');*/
+	    background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/15975028_1414625455216661_7533210601123476847_o.jpg?oh=951b947a3f4c8ff20ed7f4f3dcf68d51&oe=5A7FDA17);
+		background-size: cover;
+		background-position: right -175px top 0px;
+		font-family: 'Lato', sans-serif;
+		color: white;
+	}	
+	html {
+		height: 100%;
+	}
+	.container {
+		width: 400px;
+		margin-left: 75px;
+		margin-top: 65px;
+		background: #000;
+	  	background: -webkit-linear-gradient(bottom,rgba(0,0,0,.7), rgba(0,0,0,.1));
+	  	background: -moz-linear-gradient(bottom,rgba(0,0,0,.7), rgba(0,0,0,.1));
+	  	padding: 0px 10px 10px 10px;
+	    border-radius: 20px;
+	}    
+	.header1 {
+		position: relative;
+		text-transform: uppercase;
+		font-family: 'Taviraj', serif;
+	    font-size: 35px;
+	    line-height: 35px;
+	    letter-spacing: 0.09em;
+	    padding: 7px 0px 0px 0px;
+	    word-wrap: break-word;
+		width: 400px;
+		text-align: center;
+		color: #00F2FF;
+	/*	color: #AF5651;*/
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /*this puts a border around the text*/
+	}
+	.header2 {
+		position: relative;
+		text-transform: uppercase;
+	    font-family: 'SanchezExtraLight';
+	    font-size: 15px;
+	    letter-spacing: 0.6em;
+	    font-weight: normal;
+	    padding: 0 0 7px 0;
+	    margin-top: -22px;
+	    word-wrap: break-word;
+		width: 400px;
+		text-align: center;
+	}
+	hr {
+		/*width: 400px;*/
+		width: 15px;
+		margin-left: 195px;
+		text-align: center;
+		/*margin-left: 48px;*/
+		border-top: 2px solid #f8f8f8;
+		border-bottom: 1px solid rgba(0,0,0,0.2); /*gives the effect of a shadow*/
+	}
+	.para {
+		word-wrap: break-word;
+		width: 400px;
+		text-align: center;
+		font-size: 16px;
+		/*font-family: 'Lato', sans-serif;*/
+		font-family: 'Quicksand', sans-serif;
+		line-height: 20px;
+	}
+	.contact {
+		word-wrap: break-word;
+		width: 400px;
+		text-align: center;
+		font-size: 18px;
+	    line-height: 18px;
+	/*    font-family: 'Poly', serif;*/
+		/*font-family: 'EB Garamond', serif;*/
+		font-family: 'Josefin Sans', sans-serif;
+	/*    text-transform: uppercase;*/
+	    display: block;
+	    color: #D3F64B;
+	}
+	.contact a {	
+		font-size: 18px;
+	    line-height: 18px;
+	/*    font-family: 'Poly', serif;*/
+		/*font-family: 'EB Garamond', serif;*/
+		font-family: 'Josefin Sans', sans-serif;
+	/*    text-transform: uppercase;*/
+	    color: #D3F64B;
+	    text-decoration:none;
+	}
+	#github-button {
+		margin-left: 188px;
+		word-wrap: break-word;
+		width: 400px;
+		text-align: center;
+		cursor: pointer;
+		border-radius: 2px;
+		font-size: 48px;
+		line-height: 35px;
+		color: white;
+	}
+
+
+}
+
+
+/*iPhone*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+body {
+		/*background: url('file:///C:/Users/icanc/Documents/Resumes/Chase Professional Headshot IMG_2351.jpg');*/
+		background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/15975028_1414625455216661_7533210601123476847_o.jpg?oh=951b947a3f4c8ff20ed7f4f3dcf68d51&oe=5A7FDA17);
+		background-size: cover;
+		background-position: right 650px top 0px ;
+		font-family: 'Lato', sans-serif;
+		color: white;
+	}	
+	html {
+		height: 100%;
+	}
+	.container {
+		width: 250px;
+		margin-left: 50px;
+		margin-top: 0px;
+		background: #000;
+	  	background: -webkit-linear-gradient(bottom,rgba(0,0,0,.7), rgba(0,0,0,.1));
+	  	background: -moz-linear-gradient(bottom,rgba(0,0,0,.7), rgba(0,0,0,.1));
+	  	padding: 0px 10px 10px 10px;
+	    border-radius: 20px;
+}	
+	.header1 {
+		position: relative;
+		text-transform: uppercase;
+		font-family: 'Taviraj', serif;
+	    font-size: 26px;
+	    line-height: 26px;
+	    letter-spacing: 0.09em;
+	    padding: 7px 0px 0px 0px;
+	    word-wrap: break-word;
+		width: 250px;
+		text-align: center;
+		color: #00F2FF;
+	/*	color: #AF5651;*/
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /*this puts a border around the text*/
+	}
+	.header2 {
+		position: relative;
+		text-transform: uppercase;
+	    font-family: 'SanchezExtraLight';
+	    font-size: 14px;
+	    letter-spacing: 0.6em;
+	    font-weight: normal;
+	    padding: 0 0 2px 0;
+	    margin-top: -25px;
+	    word-wrap: break-word;
+		width: 250px;
+		text-align: center;
+	}
+	hr {
+		/*width: 400px;*/
+		width: 15px;
+		margin-left: 115px;
+		text-align: center;
+		/*margin-left: 48px;*/
+		border-top: 2px solid #f8f8f8;
+		border-bottom: 1px solid rgba(0,0,0,0.2); /*gives the effect of a shadow*/
+	}
+	.para {
+		word-wrap: break-word;
+		width: 250px;
+		text-align: center;
+		font-size: 14px;
+		/*font-family: 'Lato', sans-serif;*/
+		font-family: 'Quicksand', sans-serif;
+		line-height: 18px;
+	}
+	.contact {
+		word-wrap: break-word;
+		width: 250px;
+		text-align: center;
+		font-size: 16px;
+	    line-height: 16px;
+	/*    font-family: 'Poly', serif;*/
+		/*font-family: 'EB Garamond', serif;*/
+		font-family: 'Josefin Sans', sans-serif;
+	/*    text-transform: uppercase;*/
+	    display: block;
+	    color: #D3F64B;
+	}
+	.contact a {	
+		font-size: 16px;
+	    line-height: 16px;
+	/*    font-family: 'Poly', serif;*/
+		/*font-family: 'EB Garamond', serif;*/
+		font-family: 'Josefin Sans', sans-serif;
+	/*    text-transform: uppercase;*/
+	    color: #D3F64B;
+	    text-decoration:none;
+	}
+	#github-button {
+		margin-left: 105px;
+		word-wrap: break-word;
+		width: 250px;
+		text-align: center;
+		cursor: pointer;
+		border-radius: 2px;
+		font-size: 40px;
+		line-height: 35px;
+		color: white;
+	}
+
 }
